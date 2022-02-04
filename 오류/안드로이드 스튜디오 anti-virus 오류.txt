@@ -1,0 +1,3 @@
+안드로이드 스튜디오 안티바이러스 오류
+
+Your anti-virus program might be impacting your build performance. Android Studio checked the following directories: C:\02WorkspaceYSM\K14AndroidWorks\A01HelloAndroid C:\01Developkits\Android\SDK C:\Users\seokmin\AppData\Local\Google\AndroidStudio2021.1 C:\Users\seokmin\.gradle
