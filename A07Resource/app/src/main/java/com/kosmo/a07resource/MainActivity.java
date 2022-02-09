@@ -14,6 +14,32 @@ import android.widget.Toast;
 
 import java.util.Arrays;
 
+/*
+res디렉토리 : 안드로이드에서 리소스로 취급되는 레이아웃, 이미지, 문자열
+    등을 저장하는 디렉토리
+    - drawable : 이미지, xml 파일등이 저장됨
+    - values : 문자열, 배열, 색상, 크기 등을 정의한 xml 파일이 저장됨
+
+
+    [레이아웃용 xml에서 리소스를 참조할 경우]
+    drawable디렉토리 -> @drawable/이미지파일명
+    values디렉토리
+        -> 문자열 : @string/name속성값
+        -> 색상 : @color/name속성값
+        -> 크기 : @dimen/name속성값
+        -> 배열 : @array/name속성값
+    형태로 사용한다.
+
+    [java코드에서 참조할 경우]
+    Resources resource = getResources();
+    drawable디렉토리
+        -> resource.getDrawable(R.drawable시작하는 리소스아이디)
+    values디렉토리
+        -> 문자열 : resource.getString(R.string.리소스아이디);
+        -> 색상 : ContextCompat.getColor(Context, R.color.리소스아이디);
+        -> 크기 : resource.getDimension(R.dimen.리소스아이디); */
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
