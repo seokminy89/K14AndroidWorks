@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //앱의 타이틀 설정(메인액티비티에서만 적용된다.)
-        setTitle("당신이 좋아하는 영화는?");
+        setTitle("려니가 좋아하는 영화는?");
         setContentView(R.layout.activity_main);
 
         //배열 크기만큼 반복하면서 포스터 이미지에 리스너 부착
